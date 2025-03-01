@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat';font-size: 22px;
+}
+
+body {
+    height: 100vh;
+}
+
+.bg {
+    background-color: #ad987a;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.pre-cadastro {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.pre-cadastro img {
+    height: 70%;
+    width: 100%;
+}
+
+.pre-cadastro .button {
+    display: flex;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 200px;
+    left: 180px;
+    align-items: center;
+    width: 21%;
+    height: 55px;
+    font-size: 15px;
+    gap: 5px;
+    border-radius: 50px;
+    color: wheat;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.pre-cadastro .button span {
+    color: white;
+    width: 65%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pre-cadastro .button:hover {
+    background-color: #204f2a;
+}
+
+.pre-cadastro p {
+    position: relative;
+    bottom: 130px;
+    font-size: 13px;
+    left: -140px;
+    text-align: center;
+    color: #358647;
+}
+
+.triple-box {
+    display: flex;
+    padding: 0px 30px 15px 35px;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 680px;
+    gap: 10px;
+}
+
+.triple-box div {
+    width: 35%;
+    max-height: 700px;
+}
+
+.triple-box img {
+    width: 100%;
+    height: 600px;
+}
+
+.zoom {
+    max-width: 100%;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.zoom:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(0.98)
+}
+
+.texto {
+    display: flex;
+    color: #e7cba4;
+    background: #204f2a;
+    border-radius: 5px;
+    width: 60%;
+    justify-content: center;
+    font-size: 40px;
+    position: relative;
+    bottom: 340px;
+    left: 18%;
+    letter-spacing: 6px;
+} 
+
+.cardapio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    gap: 10px;
+    height: 600px;
+}
+
+.cardapio h1 {
+    font-size: 40px;
+    color: #ad987a;
+}
+
+.cardapio a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #f0f0f0;
+    background-color: #ad987a;
+    height: 50px;
+    width: 220px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.cardapio a:hover {
+    color: wheat;
+    background-color: #204f2a;
+}
+
+.conhecer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(../imgs/copos_empilhados.png);
+    background-size: 100% 500px;
+    background-repeat: repeat-x;
+}
+
+.conhecer h1 {
+    font-size: 35px;
+    color: #358647;
+    background-color: #204f2a;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.conhecer a {
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: rgba(3, 3, 3, 0.685);
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+}
+
+.conhecer a:hover {
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: rgb(172, 154, 121);
+    padding: 15px;
+    border-radius: 30px;
+    color: #204f2a;
+}
+
+.fabricacao {
+    display: flex;
+    margin-top: 70px;
+}
+
+.fabricacao img {
+    height: 600px;
+}
+
+.texto2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 20px;
+    color: #ad987a;
+    padding: 0px 150px 0px 20px;
+}
+
+
+.fabricacao .texto2 h6 {
+    font-size: 18px;
+    letter-spacing: 4px;
+}
+
+.fabricacao .texto2 h2 {
+    max-width: 520px;
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+.fabricacao .texto2 p {
+    font-size: 18px;
+}
+
+.fabricacao .texto2 p span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.fabricacao .texto2 a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    text-decoration: none;
+    background: #ad987a;
+    width: 30%;
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 25px;
+    color: wheat;
+}
+
+.fabricacao .texto2 a:hover {
+    background-color: #204f2a;
+}
+
+.overlay {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.overlay h3 {
+    position: absolute;
+    display: inline-block;
+    white-space: nowrap;
+    width: 0;
+    overflow: hidden;
+    top: 0;
+    left: 0%;
+    color: #000;
+    transition: 1s width 0ms;
+    font-size: 150px;
+    color: white;
+    text-shadow: -1px 0 #204f2a, 0 2px #204f2a, 2px 0 #204f2a, 0 -1px #204f2a;
+}
+.overlay:hover h3 {
+    width: 100%;
+    transition: 1s width 500ms;
+    position: relative;
+}
+.overlay div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s left 500ms;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #204f2a;
+    color: #e7cba4;
+}
+.overlay:hover div {
+    left: 100%;
+    transition: 1s left 0ms;
+}
+
+.ponto-fisico {
+    height: 350px;
+}
+.ponto-fisico img {
+    height: 350px;
+    border-radius: 5px;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px 80px 0px;
+    gap: 20px;
+    color: #204f2a;
+    letter-spacing: 3px;
+}
+
+.experiencia h3 {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.experiencia h1 {
+    font-size: 31px;
+    font-weight: bold;
+}
+
+.experiencia p {
+    width: 50%;
+    font-size: 16px;
+    text-align: center;
+    color: #358647;
+}
+
+.link {
+    background-color: #e7cba4;
+    padding: 15px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #204f2a;
+}
+
+
+.link:hover {
+    background-color: #204f2a;
+    color: #e7cba4;
+}
+
+.nossa-equipe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 60px;
+    background-color: #e2ded8;
+    gap: 20px;
+    letter-spacing: 3px;
+    color: #204f2a;
+}
+
+.nossa-equipe h1 {
+    margin-top: 80px;
+    font-size: 28px;
+}
+
+.nossa-equipe p, span {
+    font-size: 14px;
+    width: 50%;
+    text-align: center;
+}
+
+.nossa-equipe span {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.nossa-equipe a {
+    background-color: #ad987a;
+}
+
+@media screen and (max-width: 1100px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar .links{
+        display: none;
+    }
+    
+    .navbar .redes {
+        display: none !important;
+    }
+
+    .pre-cadastro img{
+        height: 100%;
+    }
+
+    .pre-cadastro .button{
+        display: none;
+    }
+
+    .pre-cadastro p{
+        display: none;
+    }
+
+    .triple-box :nth-child(2) {
+        display: none;
+    }
+
+    .triple-box div{
+        width: 100%;
+    }
+
+    .fabricacao img{
+        height: fit-content;
+    }
+
+    .fabricacao{
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .fabricacao .texto2{
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .fabricacao .texto2 a{
+        display: none;
+    }
+
+    .overlay{
+        display: none;
+    }
+
+    .ponto-fisico {
+        flex-direction: column;
+        height: fit-content;
+    }
+    
+    .experiencia{
+        text-align: center;
+    }
+
+    .nossa-equipe{
+        text-align: center;
+    }
+}
